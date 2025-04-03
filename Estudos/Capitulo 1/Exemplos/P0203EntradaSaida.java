@@ -18,6 +18,7 @@ public class P0203EntradaSaida {
         String frase = s.nextLine();
         // Saída formatada
         System.out.printf("Palavra: %s Frase: %s", palavra,frase);
+        s.close();
 
         /*
          * Valores para formatar:
